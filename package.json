@@ -1,0 +1,8 @@
+{
+  "name": "nodejs-scraper",
+  "version": "1.0.0",
+  "main": "scrape.js",
+  "dependencies": {
+    "puppeteer": "^24.6.1"
+  }
+}
