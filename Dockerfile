@@ -11,7 +11,8 @@ COPY package.json .
 RUN npm install
 
 COPY scrape.js .
-RUN node scrape.js || { echo "Scraping failed"; exit 1; } 
+RUN node scrape.js 
+##|| { echo "Scraping failed"; exit 1; } 
 
 ######stage2###
 FROM python:3.10-slim AS host
