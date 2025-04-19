@@ -2,9 +2,13 @@
 An application that combines Node.js with puppeteer for web scraping and python flask for hosting scraped data as JSON, the project is containerized using a multistage Dockerfile for build and deployment.
 
 **prerequisites**
+
 1.Docker
+
 2.python
+
 3.we need node.js 
+
 **for testing scrape.js before containerization we can use command node scrape.js** 
 
 **Directory structure**
