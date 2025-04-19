@@ -52,5 +52,9 @@ sudo docker run -p 5000:500 scraperapp
 
 - Access this on web using http://systemip:5000
 
+- I am using an env. variable to target the website(https://medium.com/) for scraping and we can change this url with any other site that following a compatible structure.
+
+
+
 NOTE: To access this application on the web, we have to add a security group rule to allow traffic on port 5000.
 Type:custom TCP,Protocol:TCP, Port range :5000. and check the firewall setting in VM before checking the output.
