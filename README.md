@@ -11,11 +11,16 @@ An application that combines Node.js with puppeteer for web scraping and python 
 I have created one directory named as exactproj,which contains the following files:
 
 exactproj/ 
--scrape.js   ** node.js script that uses Puppeteer to scrape a given url.
--package.json ** for node dependencies.
--requirements.txt ** for python dependecies.
--server.py ** flask app which serves the scraped data.
--Dockerfile ** a multi stage Dockerfile that builds the complete app.
+
+-scrape.js   **node.js script that uses Puppeteer to scrape a given url.**
+
+-package.json **for node dependencies.**
+
+-requirements.txt **for python dependecies.**
+
+-server.py **flask app which serves the scraped data.**
+
+-Dockerfile **a multi stage Dockerfile that builds the complete app.**
 
 **Steps to build**
 
